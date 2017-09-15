@@ -1,0 +1,3 @@
+Remove all the trailing spaces without the newlines:
+Find: [^\S\r\n]+$
+Replace with:
