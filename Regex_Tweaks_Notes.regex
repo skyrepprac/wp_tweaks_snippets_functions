@@ -5,3 +5,6 @@ Replace with:
 Remove all trailing whitespaces and multiple blanklines
 Find: \s+(?=(\n|\r?$))
 Replace with:
+OR
+Find: ^\r?$(\n|\r\n){2,}
+Replace with: \r\n
