@@ -7,4 +7,4 @@ Find: \s+(?=(\n|\r?$))
 Replace with:
 OR
 Find: ^\r?$(\n|\r\n){2,}
-Replace with: \r\n
+Replace with: \n
