@@ -1,3 +1,7 @@
 Remove all the trailing spaces without the newlines:
 Find: [^\S\r\n]+$
 Replace with:
+
+Remove all trailing whitespaces and multiple blanklines
+Find: \s+(?=(\n|\r?$))
+Replace with:
