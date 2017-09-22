@@ -11,3 +11,6 @@ Replace with: \n
 OR
 Find: \ +(?=(\n|$)) or \s+(?=(\n|$))
 Replace with:
+OR
+Find: [(\s\s+)^\n]$
+Replace with:
